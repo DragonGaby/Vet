@@ -1,0 +1,176 @@
+body{
+margin: 0;
+text-align: center;
+font-family: sans-serif;
+color: #40514E;
+
+}
+/*COMIENZA ESTILO BODY*/
+.top{
+width:100%;
+position: relative;
+padding-top: 100px;
+background-color: #ffab73;
+}
+
+.mid{
+
+width:100%;
+position: relative;
+margin: 100px 0
+
+}
+
+.bottom{
+
+width:100%;
+position: relative;
+background-color: #66BFBF ;
+padding: 50px 0 20px;
+}
+/*TERMINA ESTILO DE BODY*/
+
+/*EMPIEZA ESTILO DE H'S HR'S Y P'S*/
+
+.intro{
+  width: 30%;
+  margin: auto;
+}
+
+a{
+  color:#11999E ;
+  font-family: Arial;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+color: #EAF6F6;
+
+}
+
+p{
+  line-height: 1.5;
+}
+
+hr{
+border: dotted #EAF6F6 6px;
+border-bottom: none;
+width: 4%;
+margin: 100px auto;
+}
+
+h1{
+color: red;
+margin: 50px auto 0 auto;
+line-height: 1;
+}
+
+h2{
+color: green;
+padding: 10px;
+}
+
+.p{
+  text-align: justify;
+}
+
+/*EMPIEZA ESTILO DE H'S Y P'S*/
+
+/* POSICIONAMIENTO HEADER NUBES Y PERRO*/
+
+.cloud{
+position: absolute;
+left: 800px;
+top: 10px;
+
+}
+
+.cloud2{
+position: absolute;
+right: 820px;
+bottom: 200px;
+
+}
+/*AQUI TERMINA*/
+
+/*SECCION MEDIO*/
+
+/*NOSOTROS FOTO*/
+.profile-photo{
+  width:200px ;
+  height:200px;
+  border-radius: 100%;
+}
+/*NOSOTROS FOTO TERMINA*/
+
+/*SKILLS*/
+.servi-row{
+ width: 50%;
+ margin: 100px auto 100px auto;
+ text-align: left;
+
+ text-align: justify;
+
+}
+
+.vete{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.pata{
+  width:25%;
+  float: right;
+  margin-left: 30px;
+}
+
+/*SKILLS*/
+
+/*contacto*/
+.contacto{
+width: 40%;
+margin: 40px auto 60px;
+
+}
+/*  contacto*/
+
+/*boton*/
+.btn {
+	box-shadow:inset 0px 1px 0px 0px #f7c5c0;
+	background:linear-gradient(to bottom, #fc8d83 5%, #e4685d 100%);
+	background-color:#fc8d83;
+	border-radius:6px;
+	border:1px solid #d83526;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #b23e35;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #e4685d 5%, #fc8d83 100%);
+	background-color:#e4685d;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+/*boton*/
+
+
+/*TERMINA SECCION MEDIO*/
+
+
+/*footer*/
+.copyright {
+color: #EAF6F6;
+font-size: 0.75rem;
+padding: 20px 0;
+}
+/*footer*/
